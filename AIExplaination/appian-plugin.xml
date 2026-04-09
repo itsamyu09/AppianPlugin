@@ -1,0 +1,13 @@
+<appian-plugin name="Appian Object Explainer" key="com.appiancs.plugins.aiexplaination"
+               xmlns="http://www.appian.com/schemas/appian-plugin/1.0">
+
+  <plugin-info>
+    <description>Explains Appian objects with metadata and structured summaries.</description>
+    <vendor name="AppianCS" url="https://www.appian.com" />
+    <version>1.5.0</version>
+    <application-version min="21.1" />
+  </plugin-info>
+
+  <function key="aiExplaination" class="com.appiancs.plugins.aiexplaination.function.AIExplaination" />
+
+</appian-plugin>
